@@ -1,5 +1,7 @@
 package frenchBeans.project2;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 
@@ -7,14 +9,11 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 public class Main {
 	
-	public static void main(String[] args) {
-
-	AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(Configa.class);
-	Government gov = context.getBean(Government.class);
-	 Offices off = context.getBean(Offices.class);
-	 
-	 System.out.println(off.mini());
-	 System.out.println(gov.minister());
-	 
-	}
+	@Autowired
+    private ApplicationContext applicationContext;
+    public void start() {
+    	Government myService = (Government) applicationContext.getBean("government");
+    }
+    
+    
 }
