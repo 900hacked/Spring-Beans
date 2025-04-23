@@ -1,7 +1,7 @@
-frenchBeans\SpringWithDatabase\DAO\BodyCareDAO.class
-frenchBeans\SpringWithDatabase\service\BodyCareService.class
-frenchBeans\SpringWithDatabase\App.class
-frenchBeans\SpringWithDatabase\DAO\BodyCareDAOImpli.class
-frenchBeans\SpringWithDatabase\BodyDAOController.class
-frenchBeans\SpringWithDatabase\model\BodyCare.class
-frenchBeans\SpringWithDatabase\service\BodyCareServiceImpli.class
+frenchBeans/SpringWithDatabase/service/BodyCareServiceImpl.class
+frenchBeans/SpringWithDatabase/DAO/BodyCareDAO.class
+frenchBeans/SpringWithDatabase/model/BodyCare.class
+frenchBeans/SpringWithDatabase/App.class
+frenchBeans/SpringWithDatabase/BodyCareController.class
+frenchBeans/SpringWithDatabase/service/BodyCareService.class
+frenchBeans/SpringWithDatabase/DAO/BodyCareDAOImpl.class
